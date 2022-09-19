@@ -1,3 +1,5 @@
+/*fix the design make it more luxuriuos and elegant.*/
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +35,7 @@ form {
 }
 
 .inputs {
-
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -53,4 +55,25 @@ input {
     padding: 3px 5px;
     font-size: 1rem;
     margin-top: 2px;
+}
+
+.hero {
+    background-color: aliceblue;
+    padding: 50px 0 20px;
+}
+
+p {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#submit-button {
+    border: 5px solid rgb(247, 212, 167);
+    background-color: rgb(247, 212, 167);
+    padding: 10px;
+    border-radius: 10px;
+
 }
