@@ -13,8 +13,10 @@
 <body>
     <div class="container">
         <div class="image_container">
-
-            <div class="logo"></div>
+            <div class="logo">
+                <img src="assets/odin-lined.png" alt="odin">
+                Form
+            </div>
         </div>
         <div class="right">
             <div class="hero">
@@ -25,26 +27,28 @@
             </div>
             <form>
                 <div class="inputs">
+                    <h1>Let's do this!</h1>
                     <div><label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name"></div>
+                        <input type="text" id="first_name" required></div>
                     <div><label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name"></div>
+                        <input type="text" id="last_name" required></div>
                     <div><label for="email">EMAIL</label>
-                        <input type="text" id="email"></div>
+                        <input type="text" id="email" required></div>
                     <div> <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone"></div>
+                        <input type="tel" id="phone" required></div>
                     <div><label for="password">PASSWORD</label>
-                        <input type="text" id="password" class="error"></div>
+                        <input type="text" id="password" class="error" required></div>
                     <div><label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="text" id="confirm_password" class="error"></div>
-                    <button type="submit" id="submit-button">Create Account</button>
+                        <input type="text" id="confirm_password" class="error" required></div>
+                    /*validate the form*/
+                </div>
             </form>
+            <div class="footer">
+                <button type="submit" id="submit-button">Create Account</button>
+                <div>Already have an account? <a href="#">Login as a user</a></div>
+            </div>
         </div>
     </div>
-
-
-    </div>
-
 </body>
 
 </html>
